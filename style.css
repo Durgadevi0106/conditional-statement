@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100vw;
+}
+.container{
+    display: grid;
+    grid-template-columns:1fr;
+}
+@media screen and (width>=300) and (width<=700) {
+    img{
+        width:100%
+    }
+}
